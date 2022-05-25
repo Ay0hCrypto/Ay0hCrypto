@@ -1,0 +1,29 @@
+name: Ay0h-Hnt-sensecap
+type: sw.application
+description: >-
+  Manage your Sensecap Helium Miner remotely using Terminal and balenaCloud.
+post-provisioning: >-
+  ## Instructions For Ay0h's HNT Firmware for SenseCAP. 
+  
+  
+  Once your device joins a fleet you will need to wait for it to download/update the application and start mining the Helium Network.
+  
+  For detailed instructions on how to use Ay0h HNT SensecapM1 Firmware check out [GitHub/Ay0hCrypto](https://github.com/Ay0hCrypto/Ay0h-HNT-sensecap).
+  
+  For support you can [open an issue](https://github.com/Ay0h-HNT-sensecap/issues) on the Repo or reach out to me via Discord.
+  Forked from NebraLTD and Edited
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: "https://github.com/Ay0hCrypto/Ay0hCrypto"
+  logo:
+    type: blob.asset
+    data:
+      url: >-
+        
+data:
+  defaultDeviceType: raspberrypi4-64
+  supportedDeviceTypes:
+    - raspberrypi4-64
+version: 0.0.1
