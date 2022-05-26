@@ -7,7 +7,7 @@ if [ "$(df -h /var/data/ | tail -1 | awk '{print $5}' | tr -d '%')" -ge 80 ]; th
 fi
 
 # Set OVERRIDE_CONFIG_URL based on BALENA_DEVICE_TYPE
-OVERRIDE_CONFIG_URL="${RASPBERRYPI_MINER_CONFIG_URL:-https://github.com/Ay0hCrypto/Ay0hCrypto/docker.config}"
+OVERRIDE_CONFIG_URL="${RASPBERRYPI_MINER_CONFIG_URL:-https://github.com/Ay0hCrypto/Ay0hCrypto/ac-sc-sys.config}"
 
 fi
 
