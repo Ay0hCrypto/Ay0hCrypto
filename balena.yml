@@ -8,9 +8,9 @@ post-provisioning: >-
   
   Once your device joins a fleet you will need to wait for it to download/update the application and start mining the Helium Network.
   
-  For detailed instructions on how to use Ay0h HNT SensecapM1 Firmware check out [GitHub/Ay0hCrypto](https://github.com/Ay0hCrypto/Ay0h-HNT-sensecap).
+  For detailed instructions on how to use Ay0h HNT SensecapM1 Firmware check out [GitHub/Ay0hCrypto](https://github.com/Ay0hCrypto/Ay0hCrypto).
   
-  For support you can [open an issue](https://github.com/Ay0h-HNT-sensecap/issues) on the Repo or reach out to me via Discord.
+  For support you can [open an issue](https://github.com/Ay0hCrypto/Ay0hCrypto/issues) on the Repo or reach out to me via Discord.
   Forked from NebraLTD and Edited
 assets:
   repository:
