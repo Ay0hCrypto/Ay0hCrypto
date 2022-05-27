@@ -38,7 +38,7 @@ services:
       - FIRMWARE_SHORT_HASH=754b5ee
 
   helium-miner:
-    image: Ay0hCrypto/Ay0hCrypto:arm-0.1.2
+    image: Ay0hCrypto/Ay0hCrypto:arm-test-0.1.2
     depends_on:
       - dbus-session
       - diagnostics
