@@ -63,13 +63,13 @@ services:
       - FIRMWARE_SHORT_HASH=754b5ee
 
   diagnostics:
-    image: nebraltd/hm-diag:eabd38c
+    image: Ay0hCrypto/hm-diag:0.1.1
     depends_on:
       - dbus-session
     environment:
       - FIRMWARE_VERSION=2022.05.24.0
       - FIRMWARE_SHORT_HASH=754b5ee
-      - DIAGNOSTICS_VERSION=eabd38c
+      - DIAGNOSTICS_VERSION=0.1.1
       - DBUS_SYSTEM_BUS_ADDRESS=unix:path=/host/run/dbus/system_bus_socket
     volumes:
       - pktfwdr:/var/pktfwd
